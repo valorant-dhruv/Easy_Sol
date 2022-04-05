@@ -1,0 +1,202 @@
+* {
+  margin-left: 0 !important;
+  padding-left: 100 !important;
+}
+.logo {
+  margin: auto;
+  padding: right 0px;
+  padding-left: 10px;
+}
+.logotext {
+  margin: auto;
+  text-align: center;
+  justify-content: left;
+  padding: 10px;
+  font-family: "Monoton", cursive;
+  color: white;
+}
+.NavbarComp {
+  margin: auto;
+  text-align: center;
+  justify-content: left;
+  padding: 10px;
+}
+
+.LoginFields {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  -ms-transform: translate(50%, 50%);
+  transform: translate(325%, -35%);
+  padding: 10;
+}
+.SubmitButton {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  -ms-transform: translate(50%, 50%);
+  transform: translate(950%, 70%);
+  margin: 20px;
+}
+.title {
+  margin: 0;
+  padding-top: 100px;
+  font-family: "Monoton", cursive;
+  color: #212529;
+  background-color: white;
+  padding: 0;
+  text-align: left;
+}
+.about_body {
+  position: relative;
+  gap: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 195px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: justify;
+  padding: 10;
+  background-image: url("./components/home_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  overflow-x: hidden;
+  line-height: 25px;
+}
+.Complaint_body {
+  position: relative;
+  gap: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 525px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: justify;
+  padding: 10;
+  background-image: url("./components/home_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  overflow-x: hidden;
+  line-height: 25px;
+}
+
+.admin_body {
+  position: relative;
+  gap: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 290px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: justify;
+  padding: 10;
+  background-image: url("./components/home_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  overflow-x: hidden;
+  line-height: 25px;
+}
+
+.userLoginBody {
+  position: relative;
+  gap: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 255px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-align: justify;
+  padding: 10;
+  background-image: url("./components/home_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  overflow-x: hidden;
+  line-height: 25px;
+}
+
+h2 {
+  font-family: "Monoton", cursive;
+  color: white;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 40px;
+  background: #c3c1bb;
+  box-shadow: inset -20px 20px 38px #a09e99, inset 20px -20px 38px #e6e4dd;
+}
+
+.AdminCard {
+  margin: 15px;
+  margin-left: 2000px;
+  top: 50%;
+  padding: 10px;
+}
+
+.faq {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.AdminSubmitButton {
+  position: absolute;
+  text-align: center;
+  top: 80%;
+  -ms-transform: translate(50%, 50%);
+  transform: translate(650%, -125%);
+  margin: 20px;
+}
+
+.ComplaintSubmitButton
+{
+  position: absolute;
+  text-align: center;
+  top: 80%;
+  -ms-transform: translate(50%, 50%);
+  transform: translate(500%, -125%);
+  margin: 20px;
+}
+
+.faqcenter {
+  text-align: center;
+}
+/*infowindow*/
+.infowindow
+{
+color: black;
+text-align: center;
+}
+/*FAQAccordion*/
+.faq_accordion
+{
+  color: black;
+  position: relative;
+  gap: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 525px;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  padding: 10;
+  background-image: url("./components/home_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  overflow-x: hidden;
+  line-height: 25px;
+}
+/*faqfont*/
+.faq_accordion_heading
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
